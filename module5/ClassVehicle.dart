@@ -7,14 +7,3 @@ abstract class Vehicle{
   }
   int getSpeed() => _speed;
 }
-
-class Car extends Vehicle{
-  Car()
-  {
-    print("Car object created.\n");
-  }
-  @override
-  void move() {
-    print("The car is moving at $_speed km/h");
-  }
-}
