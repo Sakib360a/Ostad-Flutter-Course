@@ -9,6 +9,7 @@ This repository contains my assignments, practice projects, and notes from the O
 
 Modules I'm covering in this repo:
 
+- ✅ Module 0: The beginning before the beginning.
 - ✅ Module 1: Introduction to Flutter & Dart
 - ✅ Module 2: Dart Fundamentals
 - ✅ Module 3: Flutter Basics
@@ -22,6 +23,7 @@ Modules I'm covering in this repo:
 
 ```bash
 Ostad-Flutter-Course/
+├── module0/
 ├── module1/
 ├── module2/
 ├── module3/
