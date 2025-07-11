@@ -15,6 +15,7 @@ Modules I'm covering in this repo:
 - ✅ Module 3: Flutter Basics
 - ✅ Module 4: Widgets Deep Dive
 - ✅ Module 5: Assignment Practice
+- ✅ Module 6: Need to know git-github well
 - ⏳ More modules coming soon...
 
 ---
@@ -29,4 +30,5 @@ Ostad-Flutter-Course/
 ├── module3/
 ├── module4/
 ├── module5/
+├── module6/
 ├── README.md
