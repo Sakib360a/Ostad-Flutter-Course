@@ -1,0 +1,21 @@
+Here’s a quick list of Git commands and their purposes ⚙️:
+
+### 🛠️ **Essential Git Commands**
+
+| **Git Command**         | **What It Does (Short Description)**                 |
+|------------------------|------------------------------------------------------|
+| `git init`             | Initializes a new Git repository                     |
+| `git clone`            | Copies a remote repository to your local machine     |
+| `git status`           | Shows the current state of files in the repository   |
+| `git add`              | Adds changes to the staging area                     |
+| `git commit`           | Saves staged changes with a message                  |
+| `git push`             | Uploads local commits to a remote repository         |
+| `git pull`             | Fetches and merges changes from a remote repository  |
+| `git branch`           | Lists or creates branches                            |
+| `git checkout`         | Switches between branches                            |
+| `git merge`            | Combines changes from one branch into another        |
+| `git remote add`       | Connects your local repo to a remote (e.g., GitHub)  |
+| `git revert`           | Reverses a specific commit safely                    |
+| `git reset`            | Undoes changes, modifies commit history              |
+| `git config`           | Sets up Git configuration (e.g., user name/email)    |
+| `git fetch`            | Retrieves changes from remote without merging        |
