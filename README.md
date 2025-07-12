@@ -1,7 +1,8 @@
 # Ostad Flutter Course 🚀
 
 Welcome to my journey of learning **Flutter** with [Ostad]!  
-This repository contains my assignments, practice projects, and notes from the Ostad Flutter Course. I'm building this to track my progress and showcase my Flutter skills.
+This repository contains my assignments, practice projects, and notes from the Ostad Flutter Course. 
+I'm building this to track my progress and showcase my Flutter skills.
 
 ---
 
@@ -16,6 +17,7 @@ Modules I'm covering in this repo:
 - ✅ Module 4: Widgets Deep Dive
 - ✅ Module 5: Assignment Practice
 - ✅ Module 6: Need to know git-github well
+- ✅ Module 7: Flutter app create and run and structural flow
 - ⏳ More modules coming soon...
 
 ---
@@ -31,4 +33,5 @@ Ostad-Flutter-Course/
 ├── module4/
 ├── module5/
 ├── module6/
+├── module7/
 ├── README.md
