@@ -18,6 +18,7 @@ Modules I'm covering in this repo:
 - ✅ Module 5: Assignment Practice
 - ✅ Module 6: Need to know git-github well
 - ✅ Module 7: Flutter app create and run and structural flow
+- ✅ Module 8: ListViews, GestureDetector & Navigation
 - ⏳ More modules coming soon...
 
 ---
@@ -34,4 +35,5 @@ Ostad-Flutter-Course/
 ├── module5/
 ├── module6/
 ├── module7/
+├── module8/
 ├── README.md
