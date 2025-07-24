@@ -1,4 +1,5 @@
 import 'package:class3/screens/alertdialog.dart';
+import 'package:class3/screens/datePicker.dart';
 import 'package:flutter/material.dart';
 void main()
 {
@@ -15,7 +16,7 @@ class Myapp extends StatelessWidget {
         brightness: Brightness.light
       ),
       debugShowCheckedModeBanner: false,
-      home: AlertdialogS(),
+      home: DatePickerScreen(),
     );
   }
 }
