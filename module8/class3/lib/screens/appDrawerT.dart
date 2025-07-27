@@ -6,7 +6,26 @@ class Appdrawert extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(child: ListView(children: [/* Drawer items */])),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            SizedBox(
+              height: 80,
+              width: double.infinity,
+              child: DrawerHeader(
+                  child: Row(
+                    children: [
+                      SizedBox(width: 5,),
+                      Image.asset('assets/images/icons8-gmail-192.png',scale: 6.5,),
+                      SizedBox(width: 05,),
+                      Text('Gmail',style: TextStyle(fontSize: 25),)
+                    ],
+                  )),
+            )
+            /* Drawer items */
+          ],
+        ),
+      ),
       body: SafeArea(
         child: Column(
           children: [
@@ -14,7 +33,7 @@ class Appdrawert extends StatelessWidget {
             Container(
               margin: EdgeInsets.symmetric(horizontal: 20),
               padding: EdgeInsets.symmetric(horizontal: 15),
-              height: 65,
+              height: 70,
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
@@ -22,7 +41,6 @@ class Appdrawert extends StatelessWidget {
               ),
               child: Row(
                 children: [
-                  //SizedBox(width: 8),
                   Builder(
                     builder: (context) => IconButton(
                       icon: Icon(Icons.menu),
@@ -41,15 +59,15 @@ class Appdrawert extends StatelessWidget {
                     ),
                   ),
                   CircleAvatar(
-                    radius: 18,
-                    backgroundImage: NetworkImage('https://media.licdn.com/dms/image/v2/D5603AQEcKOfN60fsVw/profile-displayphoto-shrink_100_100/B56ZRfdrylHQAU-/0/1736768405103?e=1756339200&v=beta&t=BSqtq41B5Mg1Ym_mNRxSo3PQJjqer5zU8-0m0mg--HY'), // Use NetworkImage for online image
+                    radius: 20,
+                    backgroundImage: NetworkImage(
+                      'https://media.licdn.com/dms/image/v2/D5603AQEcKOfN60fsVw/profile-displayphoto-shrink_100_100/B56ZRfdrylHQAU-/0/1736768405103?e=1756339200&v=beta&t=BSqtq41B5Mg1Ym_mNRxSo3PQJjqer5zU8-0m0mg--HY',
+                    ), // Use NetworkImage for online image
                   ),
                   //SizedBox(width: 15),
                 ],
               ),
             ),
-
-
           ],
         ),
       ),
