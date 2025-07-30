@@ -33,7 +33,7 @@ class Appdrawert extends StatelessWidget {
                 Expanded(
                     child: Padding(
                         padding: EdgeInsets.only(left: 57),
-                        child: Divider(thickness: 1.1,))),
+                        child: Divider())),
               ],
             ),
             ListTile(
@@ -59,7 +59,7 @@ class Appdrawert extends StatelessWidget {
                 Expanded(
                     child: Padding(
                         padding: EdgeInsets.only(left: 57),
-                        child: Divider(thickness: 1.1,))),
+                        child: Divider())),
               ],
             ),
             /* Drawer items */
@@ -128,7 +128,7 @@ class Appdrawert extends StatelessWidget {
                 Expanded(
                     child: Padding(
                         padding: EdgeInsets.only(left: 57),
-                        child: Divider(thickness: 1.1,))),
+                        child: Divider())),
               ],
             ),
             ListTile(
@@ -154,7 +154,7 @@ class Appdrawert extends StatelessWidget {
                 Expanded(
                     child: Padding(
                         padding: EdgeInsets.only(left: 57),
-                        child: Divider(thickness: 1.1,))),
+                        child: Divider())),
               ],
             ),
             ListTile(

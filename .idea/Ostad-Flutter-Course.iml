@@ -2,7 +2,20 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/module7/class1_2_3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/module7/class1_2_3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/module7/class1_2_3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/module8/class3/build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
-  get actions => null;
+  Null get actions => null;
 
   @override
   Widget build(BuildContext context) {
@@ -103,19 +103,19 @@ class LoginScreen extends StatelessWidget {
                         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Successful!")));
                       }
                     },
+                    style: ButtonStyle(
+                      shadowColor: WidgetStateProperty.all<Color>(Colors.black),
+                      elevation: WidgetStateProperty.all<double>(6),
+                      backgroundColor: WidgetStateProperty.all<Color>(
+                        Colors.teal,
+                      ),
+                      foregroundColor: WidgetStateProperty.all<Color>(
+                        Colors.white,
+                      ),
+                    ),
                     child: Text(
                       "Login",
                       style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-                    ),
-                    style: ButtonStyle(
-                      shadowColor: MaterialStateProperty.all<Color>(Colors.black),
-                      elevation: MaterialStateProperty.all<double>(6),
-                      backgroundColor: MaterialStateProperty.all<Color>(
-                        Colors.teal,
-                      ),
-                      foregroundColor: MaterialStateProperty.all<Color>(
-                        Colors.white,
-                      ),
                     ),
                   ),
                 ),
@@ -134,17 +134,17 @@ class LoginScreen extends StatelessWidget {
                       ));
 
                     },
-                    child: Icon(Icons.close, size: 30,),
                     style: ButtonStyle(
-                      shadowColor: MaterialStateProperty.all<Color>(Colors.black),
-                      elevation: MaterialStateProperty.all<double>(3),
-                      backgroundColor: MaterialStateProperty.all<Color>(
+                      shadowColor: WidgetStateProperty.all<Color>(Colors.black),
+                      elevation: WidgetStateProperty.all<double>(3),
+                      backgroundColor: WidgetStateProperty.all<Color>(
                         Colors.white,
                       ),
-                      foregroundColor: MaterialStateProperty.all<Color>(
+                      foregroundColor: WidgetStateProperty.all<Color>(
                         Colors.black,
                       ),
                     ),
+                    child: Icon(Icons.close, size: 30,),
                   ),
                 ),
               ),

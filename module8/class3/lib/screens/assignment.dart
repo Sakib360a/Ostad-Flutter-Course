@@ -650,9 +650,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$799',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 
@@ -723,9 +723,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$678',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 
@@ -796,9 +796,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$599',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 
@@ -869,9 +869,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$1000',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 
@@ -942,9 +942,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$600',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 
@@ -1015,9 +1015,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$800',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 
@@ -1088,9 +1088,9 @@ class Assignment extends StatelessWidget {
                                 Text('\$899',style: TextStyle(color: Colors.blueAccent,fontWeight: FontWeight.bold,fontSize: 22),),
                                 SizedBox(width: 40,),
                                 ElevatedButton(onPressed: (){},style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(Colors.blueAccent),
-                                  shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-                                  foregroundColor: MaterialStateProperty.all(Colors.white),
+                                  backgroundColor: WidgetStateProperty.all(Colors.blueAccent),
+                                  shape: WidgetStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+                                  foregroundColor: WidgetStateProperty.all(Colors.white),
                                 ), child: Text('Book Now',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),),
 
 

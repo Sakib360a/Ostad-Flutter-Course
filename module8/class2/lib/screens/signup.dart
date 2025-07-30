@@ -332,11 +332,11 @@ class Signup extends StatelessWidget {
                             child: ElevatedButton(
                               style: ButtonStyle(
                                 backgroundColor:
-                                MaterialStateProperty.all<Color>(
+                                WidgetStateProperty.all<Color>(
                                   Color(0xFFFCE2CE),
                                 ),
                                 foregroundColor:
-                                MaterialStateProperty.all<Color>(
+                                WidgetStateProperty.all<Color>(
                                   Color(0xFF92613A),
                                 ),
                               ),

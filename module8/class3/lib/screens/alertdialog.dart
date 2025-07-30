@@ -29,7 +29,7 @@ class AlertdialogS extends StatelessWidget {
     }
     void showBottomS(){
       showModalBottomSheet(context: context, builder: (BuildContext context){
-        return Container(
+        return SizedBox(
           height: 400,
           width: 400,
           child: Column(
