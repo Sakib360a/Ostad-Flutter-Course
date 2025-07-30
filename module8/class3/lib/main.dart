@@ -1,4 +1,5 @@
 import 'package:class3/screens/app_drawer_t.dart';
+import 'package:class3/screens/tabbar_p.dart';
 import 'package:flutter/material.dart';
 void main()
 {
@@ -15,7 +16,7 @@ class Myapp extends StatelessWidget {
         brightness: Brightness.light
       ),
       debugShowCheckedModeBanner: false,
-      home: Appdrawert(),
+      home: Tabpractice(),
     );
   }
 }

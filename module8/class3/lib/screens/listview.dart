@@ -1,3 +1,4 @@
+import 'package:class3/screens/widgets/booking_card.dart';
 import 'package:flutter/material.dart';
 
 class Listview extends StatelessWidget {
@@ -6,7 +7,6 @@ class Listview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.deepPurple[300],),
       body: Column(
         children: [
           Container(
@@ -21,18 +21,11 @@ class Listview extends StatelessWidget {
             itemCount: 8,
               itemBuilder: (context,index){
             return Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                color: Colors.deepPurple[400],
-                height: 120,
-                child: Text('Hello World'),
-              ),
+              padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 10),
+              child: Booking_Price_card(img: 'assets/images/bali.jpg', price: '500',),
             );
           })),
-          Container(
-            color: Colors.red,
-            height: 80,
-          ),
+
         ],
       ),
     );
