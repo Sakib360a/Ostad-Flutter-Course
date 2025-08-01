@@ -1,4 +1,4 @@
-import 'package:class3/screens/tabbar_p.dart';
+import 'package:class3/screens/advance_navigator.dart';
 import 'package:flutter/material.dart';
 void main()
 {
@@ -12,10 +12,16 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        brightness: Brightness.light
+        brightness: Brightness.light,
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.orange,
+          )
+
+        ),
       ),
       debugShowCheckedModeBanner: false,
-      home: Tabpractice(),
+      home: AdvanceNavigator(),
     );
   }
 }
