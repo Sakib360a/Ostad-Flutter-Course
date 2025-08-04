@@ -12,18 +12,20 @@ class _CounterappState extends State<Counterapp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Counter App'),
-      // ),
+      appBar: AppBar(
+        title: Text('Counter App'),
+        shadowColor: Colors.black,
+        elevation: 2,
+      ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Text(
               count.toString(),
               style: TextStyle(fontSize: 90, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 30),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -52,7 +54,7 @@ class _CounterappState extends State<Counterapp> {
                 ),
               ],
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 40),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 side: BorderSide(color: Colors.redAccent),
@@ -66,6 +68,10 @@ class _CounterappState extends State<Counterapp> {
               onPressed: () {
                 setState(() {
                   count = 0;
+                  final snackBar = SnackBar(content: Text('✔️  Reset Successful'),
+                  duration: Duration(seconds: 2),);
+                  ScaffoldMessenger.of(context).clearSnackBars();
+                  ScaffoldMessenger.of(context).showSnackBar(snackBar);
                 });
               },
               child: Text('Reset', style: TextStyle(fontSize: 25)),
