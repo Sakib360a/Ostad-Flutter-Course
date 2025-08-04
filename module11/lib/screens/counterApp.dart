@@ -44,6 +44,7 @@ class _CounterappState extends State<Counterapp> {
                 IconButton(
                   style: IconButton.styleFrom(
                     side: BorderSide(color: Colors.orange),
+                    highlightColor: Colors.redAccent,
                   ),
                   onPressed: () {
                     setState(() {
